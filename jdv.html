@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <style type="text/css">
+        #mostrador {
+            margin: auto;
+            margin-top: 40px;
+            width: 252px;
+            height: 80px;
+        }
+
+        p {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .espaco {
+            width: 80px;
+            height: 60px;
+            border: 2px solid black;
+            float: left;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        #tabuleiro {
+            margin: auto;
+            width: 252px;
+            height: 252px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mostrador">
+        <p>Vez do Jogador:</p>
+        <img src="" border="0" height="50">
+    </div>
+
+    <div id="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
